@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" id="form2" method="post" enctype="multipart/form-data">
+        <h2>create account</h2>
+        <div class="form-box">
+            <input type="text" id="name"  name="name" placeholder="user name">
+        </div>
+        <div class="form-box">
+            <input type="email" id="email"  name="email" placeholder="your email">
+        </div>
+        <div class="form-box">
+            <input type="password" id="password"  name="password" placeholder="your password">
+        </div>
+        <div class="form-box">
+            <input type="password" id="ConfirmPassword"  name="ConfirmPassword" placeholder="Confirm your password">
+        </div>
+        <div class="form-box">
+            <input type="tel" id="tel"  name="tel" placeholder="your number">
+        </div>
+        <div class="form-box">
+            <select name="gender" id="gender">
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="T-34">T-34</option>
+                <option value="bmw m5 f90 competition">bmw m5 f90 competition</option>
+            </select>
+        </div>
+        <div class="form-box">
+            <textarea name="about" id="about" placeholder="tell about yourself"></textarea>
+        </div>
+
+        <button type="button" id="ShowPass">Show/Hide password</button>
+        <button type="submit" id="button" class="btn">Submit</button>
+    </form>
+
+    
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
